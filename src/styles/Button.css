@@ -1,0 +1,10 @@
+/* src/styles/Button.css */
+
+.common-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}

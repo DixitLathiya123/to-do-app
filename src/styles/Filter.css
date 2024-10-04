@@ -1,0 +1,19 @@
+/* src/styles/Filter.css */
+
+.filter-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+  }
+  

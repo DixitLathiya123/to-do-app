@@ -1,0 +1,25 @@
+/* src/styles/TodoItem.css */
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
